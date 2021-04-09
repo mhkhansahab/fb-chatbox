@@ -6,7 +6,9 @@
 .mainChatbox{
     position: fixed;
     width: 350px;
-    height: 70%;
+    height: 500px;
+    min-width: 350px;
+    max-height: 500px;
     bottom: 0;
     right: 10%;
 }
@@ -183,7 +185,7 @@
 
 @media screen and (max-width: 400px) {
     .mainChatbox{
-        right: 0%;
+        right: 2%;
     }
 }
 
