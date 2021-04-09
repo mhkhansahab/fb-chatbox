@@ -1,0 +1,190 @@
+*{
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #d8e6eb;
+}
+.mainChatbox{
+    position: fixed;
+    width: 350px;
+    height: 70%;
+    bottom: 0;
+    right: 10%;
+}
+.header , .options, .content{
+    display: flex;
+    background-color: #242526;
+    width: 100%;
+}
+.header{
+    border-bottom: 1px solid #2f3031;
+    border-radius: 10px 10px 0 0;
+}
+.options{
+    border-top: 1px solid #2f3031;
+}
+.options, .header{
+    flex-direction: row;
+    min-height: 12%;
+}
+
+.content{
+    flex-direction: column;
+    height: 76%;
+    overflow-y: scroll;
+}
+
+
+.icons{
+    color: #0084ff;
+    font-size: 16px;
+    padding: 6px;
+}
+.icons:hover{
+    background-color: #3e4042;
+    border-radius: 50%;
+}
+
+
+.left-header, .right-header,.left-options , .right-options{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.left-header, .left-options{
+    justify-content: flex-start;
+}
+.right-header, .right-options{
+    justify-content: flex-end;
+}
+.right-header > i, .right-options > i{
+    margin-right: 2px;
+}
+.right-header > i:last-child, .right-options:last-child{
+    margin-right: 8px;
+}
+.right-header > i:last-child{
+    padding: 6px 8px;
+}
+.left-options > i{
+    margin-left: 2px;
+    padding: 7px 6px;
+}
+.left-options > i:first-child{
+    margin-left: 8px;
+}
+.left-header-options{
+    margin-left: 4px;
+    height: 86%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.tooltip{
+    position: absolute;
+    bottom: 99%;
+    border-radius: 10px;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #bec2c9;
+    padding: 12px;
+    opacity: 90%;
+    width: fit-content;
+}
+.video-call{
+    display: none;
+    left: 38%;
+}
+.audio-call{
+    display: none;
+    left: 50%;
+}
+.minimise{
+    display: none;
+    left: 70%;
+}
+.close{
+    display: none;
+    left: 84%;
+}
+.chat-settings{
+    left: 12%;
+    display: none;
+}
+
+
+.video-icon:hover > .video-call{
+    display: block;
+}
+.audio-icon:hover > .audio-call{
+    display: block;
+}
+.minimise-icon:hover > .minimise{
+    display: block;
+}
+.close-icon:hover > .close{
+    display: block;
+}
+
+.more-options{
+    display: none;
+    left: -10%;
+    bottom: 10%;
+}
+.add-image{
+    display: none;
+    bottom: 10%;
+    left: -4%;
+}
+.open-camera{
+    display: none;
+    bottom: 10%;
+    left: 9%;
+}
+.add-emoji{
+    display: none;
+    bottom: 10%;
+    left: 16%;
+}
+.thumbsup{
+    display: none;
+    left: 80%;
+    bottom: 10%;
+}
+
+.add-icon:hover > .more-options{
+    display: block;
+}
+.image-icon:hover > .add-image{
+    display: block;
+}
+.camera-icon:hover > .open-camera{
+    display: block;
+}
+.smile-icon:hover > .add-emoji{
+    display: block;
+}
+.like-icon:hover > .thumbsup{
+    display: block;
+}
+
+
+
+
+
+
+@media screen and (max-width: 648px) {
+    .mainChatbox{
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .mainChatbox{
+        right: 0%;
+    }
+}
+
+

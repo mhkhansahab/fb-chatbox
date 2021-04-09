@@ -1,0 +1,35 @@
+.person-img{
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    margin-left: 4px;
+}
+.person-name{
+    font-weight: bold;
+}
+.person-active{
+    font-size: 12px;
+    font-weight: 500;
+    color: #b0b3b8;
+}
+.user-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 8px;
+}
+
+.left-header-options:hover{
+    background-color: #3a3b3c;
+    border-radius: 6px;
+}
+.left-header-options:hover > :last-child{
+    display: block;
+}
+
+.drop-down{
+    margin-top: 4px;
+    margin-left: 8px;
+    width: 10px;
+    color: white;
+}

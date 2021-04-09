@@ -1,0 +1,85 @@
+.message > img{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.text{
+    font-weight: 400;
+    text-align: left;
+    max-width: 60%;
+    margin-left: 5px;
+    background-color: #3e4042;
+    border-radius: 10px;
+}
+.text > p{
+    margin: 5px 10px;
+}
+.message{
+    margin: 5px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.text2{
+    margin-left: 40px;
+    border-radius: 0 10px 10px 10px;
+}
+.text3{
+    border-radius: 10px 0px 10px 10px;
+}
+.reply{
+    justify-content: flex-end;
+}
+.reply > .text{
+    margin-right: 10px;
+}
+.replytext{
+    background-color: #0084ff;
+}
+.message-options{
+    display: none;
+    align-items: center;
+    margin-left: 2px;
+}
+.message-options > i, .img-message > i{
+    padding: 6px;
+    color: grey;
+}
+.message-options > i:last-child{
+    padding: 6px 10px;
+}
+.img-message > i:hover, .message-options > i:hover{
+    background-color: #3e4042;
+    border-radius: 50%;
+}
+.message:hover > .message-options{
+    display: flex;
+}
+.img-message > img{
+    margin: 0 10px 0 6px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+.img-message > img:first-child{
+    margin-left: 40px;
+}
+
+
+/* Last Seen */
+.last-seen{
+    font-size: 12px;
+    font-weight: 500;
+    color: #b0b3b8;
+    text-align: right;
+    margin: 10px;
+}
+.last-seen > i{
+    margin-right: 5px;
+    font-size: 12px;
+    color: #b0b3b8;
+}
