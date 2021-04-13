@@ -7,6 +7,15 @@
 .person-name{
     font-weight: bold;
 }
+.person-option-menu{
+    display: flex;
+}
+.person-option-menu > .person-name{
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 .person-active{
     font-size: 12px;
     font-weight: 500;

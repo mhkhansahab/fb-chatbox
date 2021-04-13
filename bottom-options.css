@@ -1,9 +1,10 @@
 .textinput{
-    padding: 6px;
+    margin-right: 5px;
+    padding: 10px;
     border: none;
-    width: 160px;
-    height: 50%;
-    border-radius: 20px;
+    width: 200px;
+    height: 35%;
+    border-radius: 30px;
     background-color: #3a3b3c;
     resize: none;
 }

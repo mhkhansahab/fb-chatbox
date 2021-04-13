@@ -33,6 +33,7 @@
     flex-direction: column;
     height: 76%;
     overflow-y: scroll;
+
 }
 
 
@@ -53,9 +54,11 @@
     align-items: center;
 }
 .left-header, .left-options{
+    position: relative;
     justify-content: flex-start;
 }
 .right-header, .right-options{
+    position: relative;
     justify-content: flex-end;
 }
 .right-header > i, .right-options > i{
@@ -97,22 +100,22 @@
 }
 .video-call{
     display: none;
-    left: 38%;
+    left: 0%;
 }
 .audio-call{
     display: none;
-    left: 50%;
+    left: 5%;
 }
 .minimise{
     display: none;
-    left: 70%;
+    left: 45%;
 }
 .close{
     display: none;
-    left: 84%;
+    left: 65%;
 }
 .chat-settings{
-    left: 12%;
+    left: 20%;
     display: none;
 }
 
@@ -132,28 +135,23 @@
 
 .more-options{
     display: none;
-    left: -10%;
-    bottom: 10%;
+    left: 0%;
 }
 .add-image{
     display: none;
-    bottom: 10%;
-    left: -4%;
+    left: 0%;
 }
 .open-camera{
     display: none;
-    bottom: 10%;
-    left: 9%;
+    left: 20%;
 }
 .add-emoji{
     display: none;
-    bottom: 10%;
-    left: 16%;
+    left: 30%;
 }
 .thumbsup{
     display: none;
-    left: 80%;
-    bottom: 10%;
+    right: 0%;
 }
 
 .add-icon:hover > .more-options{
@@ -180,7 +178,14 @@
 
 @media screen and (max-width: 400px) {
     .mainChatbox{
-        right: 2%;
+        right: 1%;
+        height: 96%;
+        width: 98%;
+        min-width: 90%;
+        max-height: 96%;
+    }
+    .tooltip{
+        bottom: 50%;
     }
 }
 
